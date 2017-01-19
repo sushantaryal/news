@@ -5,7 +5,6 @@ namespace Taggers\News\Controllers;
 use Image;
 use Illuminate\Http\Request;
 use Taggers\News\Models\News;
-use Illuminate\Routing\Controller;
 use Taggers\News\Models\NewsCategory;
 
 class NewsController extends Controller

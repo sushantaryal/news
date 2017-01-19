@@ -3,7 +3,6 @@
 namespace Taggers\News\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Routing\Controller;
 use Taggers\News\Models\NewsCategory;
 
 class NewsCategoriesController extends Controller
