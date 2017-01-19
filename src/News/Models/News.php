@@ -100,9 +100,9 @@ class News extends Model
 	public function statusString()
 	{
 		if($this->status == 1) {
-			return '<a href="'.route('admin.news.updatestatus', $this->id).'"><span class="label label-success">Public</span></a>';
+			return '<a href="'.route('news.updatestatus', $this->id).'"><span class="label label-success">Public</span></a>';
 		} else {
-			return '<a href="'.route('admin.news.updatestatus', $this->id).'"><span class="label label-danger">Hidden</span></a>';
+			return '<a href="'.route('news.updatestatus', $this->id).'"><span class="label label-danger">Hidden</span></a>';
 		}
 	}
 }
