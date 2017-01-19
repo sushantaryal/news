@@ -1,0 +1,24 @@
+{
+    "name": "taggers/news",
+    "description": "Taggers CMS news module",
+    "license": "personal",
+    "authors": [
+        {
+            "name": "Sushant Aryal",
+            "email": "sushant.aryal90@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*",
+        "laravelcollective/html": "5.3.*",
+        "intervention/image": "^2.3",
+        "laracasts/flash": "^2.0",
+        "cviebrock/eloquent-sluggable": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taggers\\News\\": "src/News"
+        }
+    }
+}
