@@ -21,4 +21,5 @@ Finally, from the command line again, publish the migrations:
 
 ```shell
 php artisan vendor:publish
+php artisan migrate
 ```
