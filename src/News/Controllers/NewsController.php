@@ -5,10 +5,14 @@ namespace Taggers\News\Controllers;
 use Image;
 use Illuminate\Http\Request;
 use Taggers\News\Models\News;
+use Illuminate\Routing\Controller;
 use Taggers\News\Models\NewsCategory;
+use Illuminate\Foundation\Validation\ValidatesRequests;
 
 class NewsController extends Controller
 {
+    use ValidatesRequests;
+    
     /**
      * Display a listing of the resource.
      *

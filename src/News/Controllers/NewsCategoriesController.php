@@ -3,10 +3,14 @@
 namespace Taggers\News\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 use Taggers\News\Models\NewsCategory;
+use Illuminate\Foundation\Validation\ValidatesRequests;
 
 class NewsCategoriesController extends Controller
 {
+    use ValidatesRequests;
+    
     /**
      * Display a listing of the resource.
      *
